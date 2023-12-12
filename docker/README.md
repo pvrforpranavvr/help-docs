@@ -16,4 +16,6 @@ or
 
     docker ps -aq | xargs docker rm -f
 
+##### Show container logs
+    docker logs <CONTAINER_ID or NAME>
 
