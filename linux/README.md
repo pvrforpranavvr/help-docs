@@ -15,3 +15,6 @@ or
     lsof -i:<PORT_NO>
 ##### Kill a process
     kill -9 <PROCESS_ID>
+##### Find all PID and kill all
+
+    lsof -ti :<PORT_NO> | xargs kill -9
