@@ -36,9 +36,8 @@ curl -I https://api.example.com/your-endpoint
 | `TCP_DENIED`         | Request denied caching due to policy/config               |
 | `TCP_INVALID`        | Cache key invalid or response deemed uncacheable          |
 
-## 📌 2. Using the Pragma Header for Debugging
 
-## 📌 Using the `Pragma` Header for Akamai Debugging
+## 📌 2.Using the `Pragma` Header for Akamai Debugging
 
 To get extra diagnostic headers from Akamai, add the following `Pragma` header in your request.
 
