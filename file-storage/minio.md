@@ -25,3 +25,7 @@ This will start MinIO with the following ports:
 Username: minioadmin
 
 Password: minioadmin
+
+## To get local ip of mac
+
+    ipconfig getifaddr en0
