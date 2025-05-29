@@ -19,6 +19,7 @@ Useful for:
 - Monitoring custom application metrics
 - Debugging and performance tuning
 - Managing enterprise applications (e.g., via JMX in Spring Boot or Tomcat)
+- Check hikari connection pools
 
 ---
 
